@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'diary',
     'bootstrap4',
     'widget_tweaks',
+    'accounts',
 ]
 
 MIDDLEWARE = [
