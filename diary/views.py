@@ -1,8 +1,5 @@
-from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView, CreateView
-
-import diary
 from diary.forms import DiaryForm
 
 
@@ -18,5 +15,4 @@ class DiaryCreateView(CreateView):
 
 class DiaryCreateCompleteView(TemplateView):
     template_name = 'diary_create_complete.html'
-
 # Create your views here.
