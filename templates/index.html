@@ -7,6 +7,7 @@
 
 <body>
     <h1>Diary App by Django</h1>
-    <a href="http://127.0.0.1:8000/diary/create/">Go to Create Diary</a>
+    <h2><a href="{% url 'diary:diary_create' %}">Go to Create Diary</a></h2>
+    <h2><a href="{% url 'diary:diary_list' %}">View Diaries</a></h2>
 </body>
 </html>
