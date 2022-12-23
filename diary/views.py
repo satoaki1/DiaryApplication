@@ -5,7 +5,7 @@ from diary.forms import DiaryForm
 from diary.models import Diary
 
 
-class IndexView(TemplateView):
+class HomeView(TemplateView):
     template_name = 'index.html'
 
 
