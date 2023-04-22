@@ -1,4 +1,7 @@
 # DiaryApplication
+
+## Introduction
+
 Simple Diary Application created with Django framework in Python.  
 
 Users must sign up for the application, set email address, username and password.  If the password is shorter than 8 characters, than the reminder to extend the password length more than 8 characters would be displayed.  
